@@ -124,7 +124,7 @@ DELETE: ........................................................................
 
 
 ### SQL code:
-
+sql```
 ###### CREATE TABLE AIRCRAFT_MRO(
 
 name VARCHAR2(20) PRIMARY KEY,
@@ -231,7 +231,7 @@ startdate DATE,
 AIRCRAFTtype VARCHAR2(20),
 projectmanagerid NUMBER(3) constraint managerid REFERENCES PROJECT_MANAGER(ID),
 customerName VARCHAR2(20) constraint name REFERENCES CUSTOMER(name));
-
+```
 
 ## Inserting records:
 
